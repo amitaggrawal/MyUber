@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        /*Function below is redirecting to driver map activity for test only. In real time it has to check whether this is driver or user*/
         mFirebaseAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 //It is also called when user is loggout. i.e, every time there is change in state.
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (null != user) {
-                    startActivity(new Intent(MainActivity.this, MapActivity.class));
+                    startActivity(new Intent(MainActivity.this, DriverMapActivity.class));
                     finish();
                 }
             }

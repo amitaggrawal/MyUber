@@ -44,7 +44,7 @@ public class CustomerLoginActivity extends AppCompatActivity {
                 //It is also called when user is loggout. i.e, every time there is change in state.
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (null != user) {
-                    startActivity(new Intent(CustomerLoginActivity.this, MapActivity.class));
+                    startActivity(new Intent(CustomerLoginActivity.this, CustomerMapActivity.class));
                     finish();
                     return;
                 }

@@ -44,7 +44,7 @@ public class DriverLoginActivity extends AppCompatActivity {
                 //It is also called when user is loggout. i.e, every time there is change in state.
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (null != user) {
-                    startActivity(new Intent(DriverLoginActivity.this, MapActivity.class));
+                    startActivity(new Intent(DriverLoginActivity.this, DriverMapActivity.class));
                     finish();
                     return;
                 }

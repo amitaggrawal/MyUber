@@ -6,8 +6,14 @@
     <string name="btn_register">REGISTER</string>
     <string name="editText_email_hint">Please enter email here</string>
     <string name="editText_password_hint">Please enter password here</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_requestUber">Call Uber</string>
 
+    <!--maps-->
+    <string name="title_activity_driver_map">Map</string>
     <!--Errors-->
     <string name="signup_error">Signup Error: Something went wrong!</string>
     <string name="signin_error">Signin Error: Something went wrong!</string>
+    <string name="title_activity_customer_map">Map</string>
+
 </resources>
