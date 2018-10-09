@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Uber</string>
+    <string name="btn_driver">"I'm Driver"</string>
+    <string name="btn_customer">"I'm Customer"</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="editText_email_hint">Please enter email here</string>
+    <string name="editText_password_hint">Please enter password here</string>
+
+    <!--Errors-->
+    <string name="signup_error">Signup Error: Something went wrong!</string>
+    <string name="signin_error">Signin Error: Something went wrong!</string>
+</resources>
