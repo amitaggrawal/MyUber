@@ -76,9 +76,9 @@ public class DriverLoginActivity extends AppCompatActivity {
                             try {
                                 String userID = mAuth.getCurrentUser().getUid();
                                 //Create a database reference pointing to drivers.
-                                DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(userID);
+                                DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(userID).child("name");
                                 //Setting some value to above reference. It is not used but ensures that values are saved.
-                                current_user_db.setValue(true);
+                                current_user_db.setValue(email);
                             } catch (NullPointerException nullPointer) {
                                 Log.e("DriverLoginActivity", "Ln:77. Null Pointer");
                             }

@@ -7,8 +7,20 @@
     <string name="editText_email_hint">Please enter email here</string>
     <string name="editText_password_hint">Please enter password here</string>
     <string name="btn_logout">Logout</string>
+    <string name="btn_setting">Settings</string>
     <string name="btn_requestUber">Call Uber</string>
     <string name="btn_cancelRequestUber">Cancel Request</string>
+
+    <!--Profile Info-->
+    <string name="customer_name">Customer Name here</string>
+    <string name="customer_destination">Customer Destination here</string>
+    <!--Settings-->
+    <string name="editText_username">Customer Name here</string>
+    <string name="editText_user_phoneno">Customer Phone number here</string>
+    <string name="editText_car">Car info here</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+
 
     <!--maps-->
     <string name="title_activity_driver_map">Map</string>
